@@ -12,6 +12,7 @@
     "turbo": "^1.6.3"
   },
   "dependencies": {
-    "build": "^0.1.4"
+    "build": "^0.1.4",
+    "phosphor-react": "^1.4.1"
   }
 }
