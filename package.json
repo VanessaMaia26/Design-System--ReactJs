@@ -3,7 +3,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
-    "@storybook/cli": "^6.5.15"
+    "@storybook/cli": "^6.5.15",
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
   }
 }
