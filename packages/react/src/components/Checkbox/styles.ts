@@ -28,7 +28,7 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 
 const slidIn = keyframes({
     from: {
-        transform: 'translateY(-100)',
+        transform: 'translateY(-100%)',
     },
     to: {
         transform: 'translateY(0)'
@@ -40,7 +40,7 @@ const slidOut = keyframes({
         transform: 'translateY(0)',
     },
     to: {
-        transform: 'translateY(-100)'
+        transform: 'translateY(-100%)'
     }
 })
 
